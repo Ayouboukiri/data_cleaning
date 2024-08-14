@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeatData</title>
+    <link rel="icon" href="static/NEATD.png">
+    <link rel="stylesheet" href="static/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap">
+</head>
+<body>
+    
+    <header class="header">
+        <navbar class="navbar">
+            <div class="LOGOIM">
+                <img src="static/IMG/yo.png" alt="NeatData logo" class="logo">
+                <a href="{{ url_for('index') }}" class="NEAT">
+                    NeatData
+                </a>
+
+            </div>
+            <div class="links">
+                <ul>
+                    <li class="dropdown">
+                        <a href="#transform" class="dropbtn">Catalog</a>
+                        <div class="dropdown-content">
+                            <a href="#transform">Transform Data</a>
+                            <a href="#cleaning">Data Cleaning</a>
+                            <a href="#engineering">Feature Engineering</a>
+                            <a href="#analyze">Analyze your Data</a>
+                        </div>
+                    </li>
+                    <li><a href="#NDM">ND Models</a></li>
+                    <li><a href="#road">Roadmap</a></li>
+                    <li><a href="necklaces.html">Learn</a></li>
+                    <li><a href="http://localhost/JEWELRY/contactus.php" target="_blank">Contact Us</a></li>
+                </ul>
+            </div>
+        </navbar>
+        
+    </header>
+    <!-- chaymae part  -->
+    
+    <img src="static\IMG\Design sans titre\4.png" alt="" class="back4">
+    <section>
+        <div class="container">
+            <div class="image-container">
+                <img src="static\IMG\Design sans titre\11.png" alt="Data Cleaning" class="cleanM">
+            </div>
+            <div class="text-container">
+                <p class="w">What is NeatData?</p>
+                <p class="n">NeatData is your ultimate solution for cleaning and preparing your data for manipulation and modeling. Whether you're handling missing values, encoding categorical variables, or performing more advanced data processing, NeatData offers a comprehensive suite of tools to streamline these tasks. You have the flexibility to choose which steps to take or let NeatData automate the process for you. Begin your data treatment journey today and let NeatData assist you every step of the way!</p>
+            </div>
+        </div>
+    </section>
+    <img src="static\IMG\Design sans titre\10.png" alt="" class="separator">
+
+    <!-- ayoub part -->
+    <section id="transform" class="learning-paths">
+        <div class="catalog">
+            <h3>Transform Data</h3>
+            <div class="category center-buttons">
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/f" target="_blank">
+                        <p>Transform To CSV</p>
+                        <p class="small">Convert your data into CSV format.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/encoding" target="_blank">
+                        <p>Encoding Categorical Variables</p>
+                        <p class="small">Encode categorical variables for your models.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/f" target="_blank">
+                        <p>Normalize & Denormalize Data</p>
+                        <p class="small">Standardize your data for better analysis.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/f" target="_blank">
+                        <p>Correct Errors</p>
+                        <p class="small">Identify and correct errors in your dataset.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <img src="static\IMG\Design sans titre\10.png" alt="" class="separator">
+    <img src="static\IMG\Design sans titre\1.png" alt="" class="back1">
+    <img src="static\IMG\Design sans titre\2.png" alt="" class="back2">
+    <img src="static\IMG\Design sans titre\3.png" alt="" class="back3">
+    <img src="static\IMG\Design sans titre\5.png" alt="" class="back5">
+    <img src="static\IMG\Design sans titre\6.png" alt="" class="back6">
+    <img src="static\IMG\Design sans titre\7.png" alt="" class="back7">
+
+    <!-- Data Cleaning Section -->
+    <section id="cleaning" class="learning-paths">
+        <div class="catalog">
+            <h3>Data Cleaning</h3>
+            <div class="category center-buttons">
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/missing_values" target="_blank">
+                        <p>Missing Values</p>
+                        <p class="small">Handle missing data efficiently.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/f" target="_blank">
+                        <p>Handle Outliers</p>
+                        <p class="small">Identify and manage outliers in your dataset.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <img src="static\IMG\Design sans titre\8.png" alt="" class="back8">
+
+        </div>        
+    </section>
+    <img src="static\IMG\Design sans titre\10.png" alt="" class="separator">
+
+    <!-- Feature Engineering Section -->
+    <section id="engineering" class="learning-paths">
+        <div class="catalog ">
+            <h3 class="title">Feature Engineering</h3>
+            <div class="category center-buttons">
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/Dimensionality_reduction" target="_blank">
+                        <p>Dimensionality Reduction</p>
+                        <p class="small">Reduce the number of input variables in your dataset.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/Characteristics_Selection" target="_blank">
+                        <p>Feature Selection</p>
+                        <p class="small">Select important features for your model.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/Data_Sampling" target="_blank">
+                        <p>Data Sampling</p>
+                        <p class="small">Sample your data for better training results.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/" target="_blank">
+                        <p>Imbalanced Data</p>
+                        <p class="small">Handle imbalanced data for better accuracy.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/test" target="_blank">
+                        <p>Features Correction</p>
+                        <p class="small">Correct features for better model performance.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <img src="static\IMG\Design sans titre\10.png" alt="" class="separator">
+    <!-- Analyze Your Data Section -->
+    <section id="analyze" class="learning-paths">
+        <div class="catalog">
+            <h3>Analyze your Data</h3>
+            <div class="category center-buttons">
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/f" target="_blank">
+                        <p>Visualize your Data</p>
+                        <p class="small">Create visualizations to understand your data better.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <a class="card1" href="/f" target="_blank">
+                        <p>Filtering & Sorting</p>
+                        <p class="small">Filter and sort your data for better insights.</p>
+                        <div class="go-corner" href="#">
+                            <div class="go-arrow">→</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <img src="static\IMG\Design sans titre\9.png" alt="" class="back9">
+        </div>        
+    </section>
+    <img src="static\IMG\Design sans titre\10.png" alt="" class="separator">
+    
+    <!-- chaymae part -->
+    
+    <section id="NDM">
+        <div class="cataog">
+            <p class="w"> ND mODELS?</p>
+            <h3>Data Cleaning</h3>
+            <div class="category center-buttons">
+                <a href="/missing_values" target="_blank"><button id="missingValuesButton">Missing Values</button></a>
+                <a href="/upload?operation=normalize" target="_blank"><button id="normalizeButton">Normalize</button></a>
+                <a href="/denormalize" target="_blank"><button id="denormalizeButton">Denormalize</button></a>
+                <a href="//upload?operation=outlier" target="_blank"><button id="encodingButton">Handle Outliers</button></a>
+                <a href="/encoding" target="_blank"><button id="encodingButton">Encoding Categorical Variables</button></a>
+                <a href="/f" target="_blank"><button id="encodingButton">Normalize & Denormalize Data</button></a>
+            </div>
+            <h3>Feature Engineering</h3>
+            <div class="category center-buttons">
+                <a href="/Dimensionality_reduction" target="_blank"><button id="DimensionalityReductionButton">Dimensionality Reduction</button></a>
+                <a href="/upload?operation=feature_engineering" target="_blank"><button id="FeatureSelectionButton">Feature Selection</button></a>
+                <a href="/Data_Sampling" target="_blank"><button id="DataSamplingButton">Data Sampling</button></a>
+                <a href="/upload?operation=imbalanced_data" target="_blank"><button id="DataSamplingButton">Imbalanced Data</button></a>
+                <a href="/test" target="_blank"><button id="testButton">Test</button></a>
+            </div>
+            <h3>Analyze your Data</h3>
+            <div class="category center-buttons">
+                <a href="/f" target="_blank"><button id="visualizeButton">Visualize your Data</button></a>
+                <a href="//upload?operation=filter_sort" target="_blank"><button id="filterSortButton">Filtering & Sorting</button></a>
+            </div>        
+        </div>
+    </section>
+    <section id="road">
+        <div class="sec1">
+            <div class="text-sec1">
+                <p class="w">ROADMAP ?</p>
+                <p class="r">We’ve got you covered! Discover your pathway to effortless data processing and modeling—no deep expertise required!</p>
+                <a href="/f" target="_blank"><button id="filterSortButton">View the roadmap</button></a>
+            </div>
+            <div class="image-sec1">
+                <img src="static/r2.png" alt="Roadmap">
+                <div class="middle">
+                    <div class="text">
+                        <a href="/f" target="_blank"><button id="filterSortButton">View the roadmap</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <img src="static\IMG\Design sans titre\10.png" alt="" class="separator">
+
+<!-- ayoub part -->
+    <script>
+        AOS.init({
+        duration: 1000, // Animation duration in milliseconds
+        offset: 100, // Offset (in px) from the original trigger point
+        });
+    </script>
+  
+    <script src="static/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
